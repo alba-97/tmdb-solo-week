@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-content {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.App-navbar {
+  background-color: #17191d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: calc(5px + 2vmin);
+  padding-bottom: calc(5px + 2vmin);
+}
+
+.Auth-form {
+  width: 25%;
+  display: inline-block;
+  margin-top: calc(5px + 4vmin);
+  padding: calc(5px + 2vmin) calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
+  border-radius: calc(5px + 1vmin);
+  margin-left: calc(1px + 1vmin);
+  margin-right: calc(1px + 1vmin);
+  border: 1px solid gray;
+}
+
+.Fav-button {
+  height: calc(10px + 4vmin);
+  border: none;
+  font-size: calc(2px + 2vmin);
+  background-color: rgb(88, 108, 48);
+  font-weight: bold;
+  color: white;
+  margin-top: calc(1px + 1vmin);
+}
+
+.Fav-button:hover {
+  cursor: pointer;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+.Fav-add {
+  background-color: rgb(114, 147, 47);
+}
+
+.Fav-remove {
+  background-color: rgb(184, 74, 47);
+}
+
+.Signup-form {
+  display: inline-block;
+  margin-top: calc(5px + 4vmin);
+  padding: calc(5px + 2vmin) calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
+  border-radius: calc(5px + 1vmin);
+  margin-left: calc(1px + 1vmin);
+  margin-right: calc(1px + 1vmin);
+  border: 1px solid gray;
+}
+
+.Auth-button:hover {
+  cursor: pointer;
+}
+
+.Auth-links {
+  font-size: calc(10px + 2vmin);
+  margin-left: calc(10px + 2vmin);
+  margin-right: calc(10px + 2vmin);
+  color: white;
+  text-decoration: none;
+}
+
+.Content-links {
+  font-size: calc(10px + 2vmin);
+
+  color: white;
+  text-decoration: none;
+}
+
+.Content {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: calc(10px + 3vmin);
+}
+
+.Content-links:hover {
+  text-decoration: underline;
+}
+
+.Auth {
+  margin-top: calc(10px + 1vmin);
+  margin-bottom: calc(10px + 3vmin);
+}
+
+.Search-element {
+  margin-left: calc(5px + 1vmin);
+  margin-right: calc(5px + 1vmin);
+}
+
+.Search-field {
+  border-radius: calc(10px + 1vmin);
+  height: calc(10px + 3vmin);
+  border: none;
+  padding-left: calc(5px + 1vmin);
+}
+
+.Search-button {
+  border: none;
+  border-radius: calc(10px + 1vmin);
+  height: calc(20px + 3vmin);
+  width: calc(20px + 10vmin);
+  font-size: calc(2px + 2vmin);
+  background-color: rgb(56, 56, 156);
+  font-weight: bold;
+  box-shadow: 0 0 5px black;
+  color: white;
+}
+.Search-button:hover {
+  cursor: pointer;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 3px black;
+}
+
+@media screen and (max-width: 561px) {
+  .Search-button {
+    margin-top: calc(5px + 3vmin);
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .Search-element {
+    display: block;
+    margin-top: calc(5px + 3vmin);
+  }
+  .Search-button {
+    margin-top: 0;
+  }
+}
